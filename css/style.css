@@ -1,11 +1,11 @@
 @font-face {
 	font-family: DashingAlternate;
-	src: url("/AcrilwoodInd/css/font/DashingAlternate.eot");
-	src: url("/AcrilwoodInd/css/font/DashingAlternate.otf");
-	src: url("/AcrilwoodInd/css/font/DashingAlternate.svg");
-	src: url("/AcrilwoodInd/css/font/DashingAlternate.ttf");
-	src: url("/AcrilwoodInd/css/font/DashingAlternate.woff");
-	src: url("/AcrilwoodInd/css/font/DashingAlternate.woff2");
+	src: url("/css/font/DashingAlternate.eot");
+	src: url("/css/font/DashingAlternate.otf");
+	src: url("/css/font/DashingAlternate.svg");
+	src: url("/css/font/DashingAlternate.ttf");
+	src: url("/css/font/DashingAlternate.woff");
+	src: url("/css/font/DashingAlternate.woff2");
 }
 
 body, html {
@@ -190,13 +190,13 @@ hr {
 	padding: 10px 0 40px 0;
 }
 .intro h1 {
-	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: DashingAlternate ;
 	font-size: 120px;
 	font-weight: 100;
 	letter-spacing: 2px;
 	text-transform: lowercase;
 	margin-bottom: 20px;
-	color: #333;
+	color: #425365;
 }
 
 @media (max-width: 1030px) {
@@ -214,6 +214,7 @@ header .intro-text {
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
+
 /* About Section */
 #about {
 	padding: 120px 0;
