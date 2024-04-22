@@ -1,11 +1,11 @@
 @font-face {
 	font-family: DashingAlternate;
-	src: url("/css/font/DashingAlternate.eot");
-	src: url("/css/font/DashingAlternate.otf");
-	src: url("/css/font/DashingAlternate.svg");
-	src: url("/css/font/DashingAlternate.ttf");
-	src: url("/css/font/DashingAlternate.woff");
-	src: url("/css/font/DashingAlternate.woff2");
+	src: url("/Acrilwood-Ind/css/font/DashingAlternate.eot");
+	src: url("/Acrilwood-Ind/css/font/DashingAlternate.otf");
+	src: url("/Acrilwood-Ind/css/font/DashingAlternate.svg");
+	src: url("/Acrilwood-Ind/css/font/DashingAlternate.ttf");
+	src: url("/Acrilwood-Ind/css/font/DashingAlternate.woff");
+	src: url("/Acrilwood-Ind/css/font/DashingAlternate.woff2");
 }
 
 body, html {
