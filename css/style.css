@@ -78,6 +78,18 @@ ul, ol {
 	clear: both;
 	height: 0;
 }
+
+.link-type-icon img {
+	width: 100%px;
+	height: 100%px;
+  }
+
+  .link-type-text {
+	margin-top: 5px; /* Espaçamento entre o ícone e o texto */
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+  }
+
 .clearfix {
 	display: inline-block;
 }
@@ -383,6 +395,7 @@ ol.type li a:hover {
 #contact {
 	padding: 120px 0 60px 0;
 }
+
 #contact h3 {
 	padding-top: 20px;
 	font-size: 20px;
