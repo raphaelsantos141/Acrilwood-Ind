@@ -1,5 +1,5 @@
 @font-face {
-	font-family: DashingAlternate;
+	font-family: 'DashingAlternate';
 	src: url("/Acrilwood-Ind/css/font/DashingAlternate.eot");
 	src: url("/Acrilwood-Ind/css/font/DashingAlternate.otf");
 	src: url("/Acrilwood-Ind/css/font/DashingAlternate.svg");
@@ -7,6 +7,8 @@
 	src: url("/Acrilwood-Ind/css/font/DashingAlternate.woff");
 	src: url("/Acrilwood-Ind/css/font/DashingAlternate.woff2");
 }
+
+@import url();
 
 body, html {
 	font-family: 'Open Sans', sans-serif;
@@ -202,7 +204,7 @@ hr {
 	padding: 10px 0 40px 0;
 }
 .intro h1 {
-	font-family: DashingAlternate ;
+	font-family: "DashingAlternate";
 	font-size: 120px;
 	font-weight: 100;
 	letter-spacing: 2px;
