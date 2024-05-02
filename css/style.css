@@ -209,6 +209,7 @@ hr {
 	text-transform: lowercase;
 	margin-bottom: 20px;
 	color: #425365;
+	margin: ;
 }
 
 @media (max-width: 1030px) {
@@ -216,6 +217,7 @@ hr {
     font-size: 60px;
 	}
   }
+
 
 .intro p {
 	font-size: 20px;
