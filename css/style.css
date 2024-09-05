@@ -291,14 +291,17 @@ header {
     z-index: 2; /* Garante que a camada fique acima do vídeo */
 }
 
+
 /* Estilizar o iframe para cobrir o fundo */
 .video-background iframe {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 102%;
-    border: 0;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza o vídeo horizontalmente */
+  width: 100vw; /* O vídeo sempre terá 100% da largura da viewport */
+  height: 56.25vw; /* Proporção de 16:9 (altura é 56.25% da largura) */
+  min-height: 100%; /* Garante que o vídeo preencha a altura mínima */
+  min-width: 100%; /* Garante que o vídeo preencha a largura mínima */
 }
   
   .introindex .content {
@@ -342,7 +345,20 @@ header {
 header .intro-text {
 	padding-top: 200px;
 	padding-bottom: 200px;
+	text-align: center; /* Centraliza o conteúdo do texto */
 }
+
+.containerindex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura da seção */
+  }
+
+.intro-text img {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
 
 /* About Section */
 #about {
@@ -512,6 +528,8 @@ ol.type li a:hover {
 #contact {
 	padding: 120px 0 60px 0;
 }
+
+
 
 .contact-links {
 	display: flex;
