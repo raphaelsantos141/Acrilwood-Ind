@@ -15,6 +15,8 @@ body, html {
 	color: #777;
 	width: 100% !important;
 	height: 100% !important;
+	margin: 0;
+    padding: 0;
 }
 h2 {
 	margin: 0 0 20px 0;
@@ -35,6 +37,28 @@ h5 {
 	font-weight: 700;
 	line-height: 20px;
 }
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 80px;
+    right: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whatsapp-float img {
+    margin-top: 16px;
+    width: 30px;
+    height: 30px;
+}
+
 #btnTop {
     display: inline-block;
     position: fixed;
@@ -109,11 +133,12 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #666;
+	background: #ffffff;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
 }
+
 /* Navigation */
 #nav {
 	z-index: 9999;
@@ -170,21 +195,39 @@ hr {
 }
 .btn-default {
 	text-transform: uppercase;
-	color: #555;
+	color: #ffffff;
 	background-color: transparent;
-	border-color: #777;
+	border-color: #ffffff;
 	padding: 14px 20px;
 	margin: 0;
 	font-size: 16px;
 	border-radius: 0;
 	margin-top: 20px;
 }
-.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	color: #fff;
-	background-color: #121d1f;
-	border-color: #121d1f;
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .btn-intro:hover{
+	color: #121d1f;
+	background-color: #ffffff;
+	border-color: #ffffff;
 }
+
 /* Header Section */
+
+header {
+	position: relative;
+	overflow: hidden; /* Garante que o vídeo não vaze fora da seção */
+	height: 100vh; /* A altura do cabeçalho será igual à altura da janela do navegador */
+  }
+
+  #bg-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* Mantém o vídeo coberto sem distorcer */
+	z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+  }
+
 .intro {
 	display: table;
 	width: 100%;
@@ -198,6 +241,71 @@ hr {
 	background-size: cover;
 	-o-background-size: cover;
 }
+
+.introindex {
+	position: relative;
+	z-index: 1; /* Garante que o conteúdo fique acima do vídeo */
+	display: table;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	color: #ffffff;
+	background-color: #e5e5e5;
+	z-index: 3; /* Garante que o conteúdo fique acima da camada de escurecimento */
+}
+
+.btn-intro,
+.btn-intro:focus,
+.btn-intro:active {
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: transparent;
+	border-color: #ffffff;
+	padding: 14px 20px;
+	margin: 0;
+	font-size: 16px;
+	border-radius: 0;
+	margin-top: 20px;
+	outline: none; /* Remove a borda de foco padrão */
+    box-shadow: none; /* Remove a sombra de foco padrão */
+}
+
+/* Estilizar o contêiner do vídeo */
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Garante que nada saia da área do vídeo */
+    z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+}
+
+.video-background .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+    z-index: 2; /* Garante que a camada fique acima do vídeo */
+}
+
+/* Estilizar o iframe para cobrir o fundo */
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 102%;
+    border: 0;
+}
+  
+  .introindex .content {
+	position: relative;
+	z-index: 1;
+  }
+
 .section-title.center {
 	padding: 10px 0 40px 0;
 }
@@ -218,12 +326,19 @@ hr {
 	}
   }
 
+  .intro p {
+	font-size: 20px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	color: #ffffff;
+}
 
-.intro p {
+.introindex p {
 	font-size: 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
 }
+
 header .intro-text {
 	padding-top: 200px;
 	padding-bottom: 200px;
@@ -231,7 +346,7 @@ header .intro-text {
 
 /* About Section */
 #about {
-	padding: 120px 0;
+	padding: 100px 0;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -397,6 +512,31 @@ ol.type li a:hover {
 #contact {
 	padding: 120px 0 60px 0;
 }
+
+.contact-links {
+	display: flex;
+	justify-content: center;
+	gap: 50px; /* Espaço entre os links */
+  }
+  
+  .contact-links .link-type {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	width: 150px; /* Largura dos links */
+  }
+  
+  .contact-links .link-type-icon img {
+	max-width: 64px;
+	margin-bottom: 10px;
+  }
+  
+  .contact-links .link-type-text {
+	font-size: 16px;
+	color: #333;
+  }
+  
 
 #contact h3 {
 	padding-top: 20px;
