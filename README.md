@@ -18,7 +18,7 @@ Este projeto foi criado como uma iniciativa pessoal para colocar em prática HTM
 
 - ## Link para o site
 
-[Acrilwood Ind](https://raphaelsantos141.github.io/Acrilwood-Ind/)
+[Acrilwood Ind](https://acrilwoodind.vercel.app)
 
 ## Contato
 - [GitHub](https://github.com/raphaelsantos141)
