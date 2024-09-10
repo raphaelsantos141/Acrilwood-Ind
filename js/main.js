@@ -1,85 +1,76 @@
-
 function main() {
+  'use strict';
 
-(function () {
-   'use strict';
-   
-  	$('a.page-scroll').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+  // Scroll suave para links de navegação
+  $('a.page-scroll').click(function(event) {
+      event.preventDefault();
+      
+      if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+          let target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          
           if (target.length) {
-            $('html,body').animate({
-              scrollTop: target.offset().top - 40
-            }, 900);
-            return false;
+              $('html, body').animate({
+                  scrollTop: target.offset().top - 40
+              }, 900);
           }
-        }
+      }
+  });
+
+  // Mostrar/ocultar o botão de voltar ao topo
+  window.addEventListener('scroll', () => {
+      const backToTopButton = document.querySelector('.back-to-top');
+      if (window.scrollY > 300) {
+          backToTopButton.classList.add('show');
+      } else {
+          backToTopButton.classList.remove('show');
+      }
+  });
+
+  // Fixar a navbar após rolar abaixo do cabeçalho
+  $('#nav').affix({
+      offset: {
+          top: $('header').height()
+      }
+  });
+
+  // Filtro Isotope para o portfólio
+  $(window).on('load', function() {
+      const $container = $('.portfolio-items');
+      
+      $container.isotope({
+          filter: '*',
+          animationOptions: {
+              duration: 750,
+              easing: 'linear',
+              queue: false
+          }
       });
 
-	// affix the navbar after scroll below header
-$('#nav').affix({
-      offset: {
-        top: $('header').height()
-      }
-});	
+      $('.cat a').click(function(event) {
+          event.preventDefault();
+          
+          $('.cat .active').removeClass('active');
+          $(this).addClass('active');
+          
+          const selector = $(this).attr('data-filter');
+          $container.isotope({
+              filter: selector,
+              animationOptions: {
+                  duration: 750,
+                  easing: 'linear',
+                  queue: false
+              }
+          });
+      });
+  });
 
-	
-  	// Portfolio isotope filter
-    $(window).load(function() {
-        var $container = $('.portfolio-items');
-        $container.isotope({
-            filter: '*',
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-        });
-        $('.cat a').click(function() {
-            $('.cat .active').removeClass('active');
-            $(this).addClass('active');
-            var selector = $(this).attr('data-filter');
-            $container.isotope({
-                filter: selector,
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-            return false;
-        });
-
-    });
-	
-
-    // Nivo Lightbox 
-    $('.portfolio-item a').nivoLightbox({
-            effect: 'slideDown',  
-            keyboardNav: true,                            
-        });
- 
-
-}());
-
-// Função para rolar a página de volta ao topo suavemente
-function scrollToTop() {
-  window.scrollTo({
-      top: 0,
-      behavior: "smooth"
+  // Nivo Lightbox
+  $('.portfolio-item a').nivoLightbox({
+      effect: 'slideDown',
+      keyboardNav: true
   });
 }
 
-// Mostrar ou ocultar o botão "Voltar ao Topo" conforme a posição da página
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("btnTop").style.display = "block";
-  } else {
-      document.getElementById("btnTop").style.display = "none";
-  }
-}
-}
+// Executa a função principal
 main();
