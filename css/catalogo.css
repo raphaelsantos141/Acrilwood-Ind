@@ -673,6 +673,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     color: #555;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    border-radius: 5px;
   }
   
   .filters button:hover {
@@ -722,13 +723,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   
   .filters input[type="checkbox"] {
     margin-right: 10px;
-    accent-color: #4caf50;
+    accent-color: #555;
   }
   
   #clear-filters {
     position: absolute;
     left: 0; /* Alinha o botão à esquerda */
-    background-color: #f44336;
+    background-color: #70859b;
     color: white;
     border: none;
     padding: 12px 25px; /* Aumenta o padding do botão */
@@ -738,7 +739,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   
   #clear-filters:hover {
-    background-color: #d32f2f; /* Cor ao passar o mouse */
+    background-color: #425365; /* Cor ao passar o mouse */
   }
   
   .gallery {
@@ -773,7 +774,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   
   .pagination button {
-    background-color: #4caf50;
+    background-color: #70859b;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -784,11 +785,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   
   .pagination button:hover {
-    background-color: #388e3c;
+    background-color: #425365;
   }
   
   .pagination button.active {
-    background-color: #388e3c;
+    background-color: #425365;
     pointer-events: none;
   }
   

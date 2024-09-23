@@ -36,7 +36,7 @@ function main() {
   }
   
   const galleryItems = [
-    { id: 1, image: 'https://via.placeholder.com/300x200?text=Produto+1', types: ['Tipo1'], segments: ['Segmento1'] },
+    { id: 1, image: '../img/portfolio/01-bd-transparente-large.jpg', types: ['Tipo1'], segments: ['Segmento1'] },
     { id: 2, image: 'https://via.placeholder.com/300x200?text=Produto+2', types: ['Tipo1', 'Tipo2'], segments: ['Segmento2'] },
     { id: 3, image: 'https://via.placeholder.com/300x200?text=Produto+3', types: ['Tipo2'], segments: ['Segmento1', 'Segmento2'] },
     { id: 4, image: 'https://via.placeholder.com/300x200?text=Produto+4', types: ['Tipo1'], segments: ['Segmento1'] },
@@ -93,4 +93,43 @@ function main() {
   
   // Inicializa a galeria
   main();
+
+  // Função para abrir o modal com a imagem clicada
+function openModal(imageSrc) {
+    const modal = document.getElementById('imageModal');
+    const modalImage = document.getElementById('modalImage');
+    modal.style.display = 'block';
+    modalImage.src = imageSrc;
+  
+    // Desativa o scroll da página
+    document.body.classList.add('body-no-scroll');
+  }
+  
+  // Função para fechar o modal
+  function closeModal() {
+    const modal = document.getElementById('imageModal');
+    modal.style.display = 'none';
+  
+    // Reativa o scroll da página
+    document.body.classList.remove('body-no-scroll');
+  }
+  
+  // Adiciona eventos às imagens da galeria para abrir o modal ao clicar
+  document.getElementById('gallery').addEventListener('click', function(e) {
+    if (e.target.tagName === 'IMG') {
+      openModal(e.target.src);
+    }
+  });
+  
+  // Fecha o modal ao clicar no botão de fechar
+  document.querySelector('.close').addEventListener('click', closeModal);
+  
+  // Fecha o modal ao clicar fora da imagem
+  window.addEventListener('click', function(e) {
+    const modal = document.getElementById('imageModal');
+    if (e.target === modal) {
+      closeModal();
+    }
+  });
+  
   
