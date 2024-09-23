@@ -36,8 +36,8 @@ function main() {
   }
   
   const galleryItems = [
-    { id: 1, image: '../img/portfolio/01-bd-transparente-large.jpg', types: ['Tipo1'], segments: ['Segmento1'] },
-    { id: 2, image: 'https://via.placeholder.com/300x200?text=Produto+2', types: ['Tipo1', 'Tipo2'], segments: ['Segmento2'] },
+    { id: 1, image: '../img/portfolio/01-bd-transparente-large.jpg', types: ['baldes'], segments: ['injetados'] },
+    { id: 2, image: '../img/portfolio/02-bd-rosa-large.jpg', types: ['baldes'], segments: ['injetados'] },
     { id: 3, image: 'https://via.placeholder.com/300x200?text=Produto+3', types: ['Tipo2'], segments: ['Segmento1', 'Segmento2'] },
     { id: 4, image: 'https://via.placeholder.com/300x200?text=Produto+4', types: ['Tipo1'], segments: ['Segmento1'] },
     { id: 5, image: 'https://via.placeholder.com/300x200?text=Produto+5', types: ['Tipo2'], segments: ['Segmento2'] },
