@@ -926,10 +926,15 @@ a:focus,
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
     .gallery {
         grid-template-columns: repeat(1, 1fr);
         /* 1 coluna em telas pequenas */
+    }
+
+    #clear-filters {
+        top: -50px;
+
     }
 }
 
