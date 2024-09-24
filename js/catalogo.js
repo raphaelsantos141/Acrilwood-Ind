@@ -38,14 +38,14 @@ function main() {
   const galleryItems = [
     { id: 1, image: '../img/portfolio/01-bd-transparente-large.jpg', types: ['baldes'], segments: ['injetados'] },
     { id: 2, image: '../img/portfolio/02-bd-rosa-large.jpg', types: ['baldes'], segments: ['injetados'] },
-    { id: 3, image: 'https://via.placeholder.com/300x200?text=Produto+3', types: ['Tipo2'], segments: ['Segmento1', 'Segmento2'] },
-    { id: 4, image: 'https://via.placeholder.com/300x200?text=Produto+4', types: ['Tipo1'], segments: ['Segmento1'] },
-    { id: 5, image: 'https://via.placeholder.com/300x200?text=Produto+5', types: ['Tipo2'], segments: ['Segmento2'] },
-    { id: 6, image: 'https://via.placeholder.com/300x200?text=Produto+6', types: ['Tipo1', 'Tipo2'], segments: ['Segmento1'] },
-    { id: 7, image: 'https://via.placeholder.com/300x200?text=Produto+7', types: ['Tipo2'], segments: ['Segmento1', 'Segmento2'] },
-    { id: 8, image: 'https://via.placeholder.com/300x200?text=Produto+8', types: ['Tipo1'], segments: ['Segmento1'] },
-    { id: 9, image: 'https://via.placeholder.com/300x200?text=Produto+9', types: ['Tipo1', 'Tipo2'], segments: ['Segmento2'] },
-    { id: 10, image: 'https://via.placeholder.com/300x200?text=Produto+10', types: ['Tipo2'], segments: ['Segmento1'] }
+    { id: 3, image: '../img/portfolio/03-bj-bacardi-large.jpg', types: ['bandejas'], segments: ['bebidas'] },
+    { id: 4, image: '../img/portfolio/04-bj-oldeight-large.jpg', types: ['bandejas'], segments: ['bebidas'] },
+    { id: 5, image: '../img/portfolio/05-db-lequehorizontal-large.jpg', types: ['display_balcao'], segments: ['papelaria'] },
+    { id: 6, image: '../img/portfolio/06-db-duplafacemontecarlo-large.jpg', types: ['display_balcao'], segments: ['relogios'] },
+    { id: 7, image: '../img/portfolio/07-dc-chaocrown-large.jpg', types: ['display_chao'], segments: ['papelaria'] },
+    { id: 8, image: '../img/portfolio/08-dc-chaocompactor-large.jpg', types: ['display_chao'], segments: ['papelaria'] },
+    { id: 9, image: '../img/portfolio/09-dg-gondolapureshower-large.jpg', types: ['display_gondola'], segments: ['cosmeticos'] },
+    { id: 10, image: '../img/portfolio/10-dg-gondolaaperol-large.jpg', types: ['display_gondola'], segments: ['bebidas'] },
   ];
   
   const itemsPerPage = 9;
