@@ -272,6 +272,33 @@ header {
     box-shadow: none; /* Remove a sombra de foco padrão */
 }
 
+.button-center{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-catalogo{
+	text-transform: uppercase;
+	color: #111111;
+	background-color: transparent;
+	border-color: #181818;
+	padding: 14px 20px;
+	margin: 0;
+	font-size: 16px;
+	border-radius: 0;
+	margin-top: 20px;
+	outline: none; /* Remove a borda de foco padrão */
+    box-shadow: none; /* Remove a sombra de foco padrão */
+	transition: transform 0.3s ease, background-color 0.3s ease; /* Transições suaves */
+}
+
+.btn-catalogo:hover{
+	color: #777777;
+	border-color: #777777;
+	transform: scale(1.1); /* Aumenta o botão em 10% */
+}
+
 /* Estilizar o contêiner do vídeo */
 .video-background {
     position: absolute;
