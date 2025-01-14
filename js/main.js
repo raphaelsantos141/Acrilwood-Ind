@@ -1,21 +1,7 @@
 function main() {
   'use strict';
 
-  // Scroll suave para links de navegação
-  $('a.page-scroll').click(function(event) {
-      event.preventDefault();
-      
-      if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-          let target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-          
-          if (target.length) {
-              $('html, body').animate({
-                  scrollTop: target.offset().top - 40
-              }, 900);
-          }
-      }
-  });
+
 
   // Mostrar/ocultar o botão de voltar ao topo
   window.addEventListener('scroll', () => {
@@ -27,12 +13,6 @@ function main() {
       }
   });
 
-  // Fixar a navbar após rolar abaixo do cabeçalho
-  $('#nav').affix({
-      offset: {
-          top: $('header').height()
-      }
-  });
 
   // Filtro Isotope para o portfólio
   $(window).on('load', function() {

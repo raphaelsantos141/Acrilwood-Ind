@@ -401,9 +401,8 @@ header .intro-text {
 }
 
 #about img {
-	border-radius: 50%;
-	width: 160px;
-	height: 160px;
+	width: 700px;
+	height: 100%;
 	display: inline-block;
 }
 
