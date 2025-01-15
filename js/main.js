@@ -100,7 +100,7 @@ function main() {
       { id: 61, image: '../img/portfolio/61-dc-expositor-prancha-oculos.png', types: ['display_chao'], segments: ['oculos'] },
       { id: 62, image: '../img/portfolio/62-dc-expositor-alumbra-vivax.png', types: ['display_chao'], segments: ['outros'] },
       { id: 63, image: '../img/portfolio/63-db-display-lapiseira.png', types: ['display_balcao'], segments: ['outros'] },   
-      { id: 64, image: '../img/portfolio/64-bandeja_retangular.png', types: ['bandejas'], segments: ['outros'] },  
+      { id: 64, image: '../img/portfolio/64-bandeja_retangular.jpg', types: ['bandejas'], segments: ['outros'] },  
       { id: 65, image: '../img/portfolio/65-bandeja_com_alca_de_couro_decorativa_grande.jpg', types: ['bandejas'], segments: ['outros'] },  
       { id: 66, image: '../img/portfolio/66-bandeja_chanfrada.jpg', types: ['bandejas'], segments: ['outros'] },  
       { id: 67, image: '../img/portfolio/67-painel-de-preço-frescatto.jpg', types: ['bannercilhos'], segments: ['outros'] },    
