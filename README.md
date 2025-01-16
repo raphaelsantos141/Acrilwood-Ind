@@ -20,11 +20,12 @@ Apesar de não ter sido remunerado por esse trabalho, encarei o projeto como uma
 - JavaScript
 
 ## Objetivos
+- Criar um catálogo dinâmico para apresentação de produtos eliminando milhares de PDFs
 - Aprimorar as habilidades em front-end.
 - Explorar templates e entender a estrutura de um site.
 - Praticar a personalização de layout e estilo.
 
-- ## Link para o site
+## Link para o site
 
 [Acrilwood Ind](https://acrilwoodind.vercel.app)
 
