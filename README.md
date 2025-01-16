@@ -1,6 +1,6 @@
 # Acrilwood Ind
 
-Projeto desenvolvido para a empresa onde trabalho, com o objetivo de aprendizado e prática de habilidades de front-end.
+Projeto desenvolvido para a empresa onde trabalho, com o objetivo de facilidade na hora de mostrar os catálogos da empresa de uma forma eficiente.
 
 ## Descrição
 
