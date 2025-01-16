@@ -4,7 +4,15 @@ Projeto desenvolvido para a empresa onde trabalho, com o objetivo de aprendizado
 
 ## Descrição
 
-Este projeto foi criado como uma iniciativa pessoal para colocar em prática HTML, CSS e JavaScript. A partir de um template pré-existente, explorei como cada parte funcionava e personalizei a interface para torná-la mais agradável e funcional. O projeto me ajudou a entender melhor os fundamentos do desenvolvimento front-end e a editar código com mais confiança.
+Este projeto foi uma experiência muito bacana e nasceu de uma necessidade real. O dono da empresa solicitou que eu criasse um layout para apresentar aos novos clientes, exibindo os diversos tipos de displays e projetos feitos em acrílico e MDF. Inicialmente, seria necessário criar diversos PDFs, categorizando os displays por tipo (como Display de Vitrine, Display de Mesa, Display de Parede, etc.) e também pelo segmento de mercado de cada um.
+
+A ideia era gerar um PDF para cada tipo de display, além de outros PDFs que mostrassem esses mesmos displays separados por segmento de mercado. Isso seria bastante trabalhoso e demandaria muito tempo.
+
+Para otimizar esse processo, desenvolvi uma galeria com filtros, onde o cliente pode facilmente visualizar e filtrar os displays tanto pelo tipo quanto pelo segmento de mercado. Esse sistema não só economizou tempo, eliminando a necessidade de criar inúmeros PDFs, como também melhorou a experiência visual dos clientes ao permitir uma exibição mais interativa e agradável.
+
+Ele gostou tanto da galeria que aprovou fazer o site completo!
+
+Apesar de não ter sido remunerado por esse trabalho, encarei o projeto como uma excelente oportunidade de aprendizado, o que foi muito positivo tanto para meu portfólio quanto para a empresa.
 
 ## Tecnologias Utilizadas
 - HTML5
