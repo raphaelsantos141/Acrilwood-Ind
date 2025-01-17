@@ -67,7 +67,7 @@ function main() {
       { id: 28, image: '../img/portfolio/28-bjp-bandejajapafood.png', types: ['bandejas'], segments: ['alimenticio'] },
       { id: 29, image: '../img/portfolio/29-bnd-blaze.png', types: ['brindes'], segments: ['outros'] },
       { id: 30, image: '../img/portfolio/30-bnd-brindereserva.png', types: ['brindes'], segments: ['outros'] },
-      { id: 31, image: '../img/portfolio/31-cross-jameson e ballantines.png', types: ['crossmerchandising'], segments: ['bebidas'] },
+      { id: 31, image: '../img/portfolio/31-cross-jameson e ballantines.png', types: ['clipstrip'], segments: ['bebidas'] },
       { id: 32, image: '../img/portfolio/32-cross-delicia.png', types: ['clipstrip'], segments: ['alimenticio'] },
       { id: 33, image: '../img/portfolio/33-projetoespecial-BEI.png', types: ['projetosespeciais'], segments: ['com_visual'] },
       { id: 34, image: '../img/portfolio/34-projetosepeciais-arvoreteachers.png', types: ['projetosespeciais'], segments: ['bebidas'] },
@@ -102,8 +102,11 @@ function main() {
       { id: 63, image: '../img/portfolio/63-db-display-lapiseira.png', types: ['display_balcao'], segments: ['outros'] },   
       { id: 64, image: '../img/portfolio/64-bandeja_retangular.jpg', types: ['bandejas'], segments: ['outros'] },  
       { id: 65, image: '../img/portfolio/65-bandeja_com_alca_de_couro_decorativa_grande.jpg', types: ['bandejas'], segments: ['outros'] },  
-      { id: 66, image: '../img/portfolio/66-bandeja_chanfrada.jpg', types: ['bandejas'], segments: ['outros'] },  
-      { id: 67, image: '../img/portfolio/67-painel-de-preço-frescatto.jpg', types: ['bannercilhos'], segments: ['outros'] },    
+      { id: 66, image: '../img/portfolio/66-bandeja_chanfrada.jpg', types: ['bandejas','decor'], segments: ['outros'] },  
+      { id: 67, image: '../img/portfolio/67-painel-de-preço-frescatto.jpg', types: ['bannercilhos'], segments: ['outros'] }, 
+      { id: 68, image: '../img/portfolio/68-3baldes.jpg', types: ['brindes', 'baldes'], segments: ['injestados'] }, 
+      { id: 69, image: '../img/portfolio/69-placafaith.jpg', types: ['decor'], segments: ['outros'] }, 
+      { id: 70, image: '../img/portfolio/70-baldes3.jpg', types: ['baldes'], segments: ['outros'] },    
   ];
   
   const itemsPerPage = 9;
