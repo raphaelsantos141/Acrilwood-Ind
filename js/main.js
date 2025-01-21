@@ -87,7 +87,7 @@ function main() {
       { id: 48, image: '../img/portfolio/48-ln-lona2.png', types: ['lona'], segments: ['com_visual'] },
       { id: 49, image: '../img/portfolio/49-pt-wps.png', types: ['pecatecnica'], segments: ['outros'] },
       { id: 50, image: '../img/portfolio/50-pt-grw.png', types: ['pecatecnica'], segments: ['outros'] },
-      { id: 51, image: '../img/portfolio/51-q-quiosquerevlon.png', types: ['quiosque'], segments: ['cosmeticos'] },
+      { id: 51, image: '../img/portfolio/51-q-quiosquerevlon.png', types: ['quiosque','display_chao'], segments: ['cosmeticos'] },
       { id: 52, image: '../img/portfolio/52-q-quiosquechillibeans.png', types: ['quiosque'], segments: ['oculos'] },
       { id: 53, image: '../img/portfolio/53-tt-torregiratoriatechnos.png', types: ['totem'], segments: ['relogios'] },
       { id: 54, image: '../img/portfolio/54-tt-crown.png', types: ['totem'], segments: ['papelaria'] },
@@ -126,7 +126,18 @@ function main() {
       { id: 87, image: '../img/portfolio/87-sainte-lys-balcão.jpg', types: ['display_balcao'], segments: ['cosmeticos'] }, 
       { id: 88, image: '../img/portfolio/88-display-chao-nables.jpg', types: ['display_chao'], segments: ['outros'] },
       { id: 89, image: '../img/portfolio/89-display-vitrine-crown.jpg', types: ['display_vitrine'], segments: ['papelaria'] },  
-      { id: 90, image: '../img/portfolio//90-display-vitrine-condor.jpg', types: ['display_vitrine'], segments: ['relogios'] },  
+      { id: 90, image: '../img/portfolio/90-display-vitrine-condor.jpg', types: ['display_vitrine'], segments: ['relogios'] }, 
+      { id: 91, image: '../img/portfolio/91-display-chao-carbon14.jpg', types: ['display_chao'], segments: ['relogios'] }, 
+      { id: 92, image: '../img/portfolio/92-display-chao-victorinox.jpg', types: ['display_chao'], segments: ['relogios'] }, 
+      { id: 93, image: '../img/portfolio/93-DISPENSER-PARA-ÁLCOOL-GEL-COM-PEDAL.jpg', types: ['display_chao'], segments: ['outros'] }, 
+      { id: 94, image: '../img/portfolio/94-clip-strip-hellmans.jpg', types: ['clipstrip'], segments: ['alimenticio'] }, 
+      { id: 95, image: '../img/portfolio/95-especial-WYBOROWA.jpg', types: ['projetosespeciais'], segments: ['bebidas'] }, 
+      { id: 96, image: '../img/portfolio/96-mesa-natu-nobilis.jpg', types: ['display_mesa'], segments: ['bebidas'] }, 
+      { id: 97, image: '../img/portfolio/97-mesa-nova-schin.jpg', types: ['display_mesa'], segments: ['bebidas'] },  
+      { id: 98, image: '../img/portfolio/98-mesa-ice-tea.jpg', types: ['display_mesa'], segments: ['bebidas'] },  
+      { id: 99, image: '../img/portfolio/99-mesa-brahma.jpg', types: ['display_mesa'], segments: ['bebidas'] },
+      { id: 100, image: '../img/portfolio/100-mesa-ballantines.jpg', types: ['display_mesa'], segments: ['bebidas'] }, 
+      { id: 101, image: '../img/portfolio/101-mesa-nova-schin-madeira.jpg', types: ['display_mesa'], segments: ['bebidas'] },  
   ];
   
   const itemsPerPage = 9;
