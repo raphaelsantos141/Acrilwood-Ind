@@ -41,7 +41,8 @@ function main() {
       { id: 2, image: '../img/portfolio/02-bd-rosa-large.jpg', types: ['baldes'], segments: ['injetados'] },
       { id: 3, image: '../img/portfolio/03-bj-bacardi-large.jpg', types: ['bandejas'], segments: ['bebidas'] },
       { id: 108, image: '../img/portfolio/108-portaretrato.jpg', types: ['decor'], segments: ['outros'] },
-      { id: 110, image: '../img/portfolio/110-vasoflores.jpg', types: ['decor'], segments: ['outros'] },  
+      { id: 110, image: '../img/portfolio/110-vasoflores.jpg', types: ['decor'], segments: ['outros'] }, 
+      { id: 111, image: '../img/portfolio/111-lembrancinha.jpg', types: ['decor'], segments: ['outros'] },  
       { id: 109, image: '../img/portfolio/109-balde-bandeja-cafe.jpg', types: ['balde','decor'], segments: ['outros'] },
       { id: 105, image: '../img/portfolio/105-moldura-acrilwood.jpg', types: ['decor'], segments: ['outros'] },
       { id: 106, image: '../img/portfolio/106-moldura-acrilwood-certificado.jpg', types: ['decor'], segments: ['outros'] },
@@ -147,8 +148,8 @@ function main() {
       { id: 104, image: '../img/portfolio/104-decoracao-crashbandicoot.jpg', types: ['decor'], segments: ['outros'] }, 
       { id: 107, image: '../img/portfolio/107-chaveiro-nfsmw.jpg', types: ['decor'], segments: ['outros'] },  
       { id: 35, image: '../img/portfolio/35-decor-ghostbusters.png', types: ['decor'], segments: ['outros'] },
-
-     
+      { id: 112, image: '../img/portfolio/112-moldura-acrilwood-prato.jpg', types: ['decor'], segments: ['outros'] },  
+      { id: 114, image: '../img/portfolio/114-protetor-veicular.jpg', types: ['projetosespeciais'], segments: ['outros'] },  
   ];
   
   const itemsPerPage = 9;
