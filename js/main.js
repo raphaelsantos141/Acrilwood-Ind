@@ -76,7 +76,7 @@ function main() {
       { id: 31, image: '../img/portfolio/31-cross-jameson e ballantines.png', types: ['clipstrip'], segments: ['bebidas'] },
       { id: 32, image: '../img/portfolio/32-cross-delicia.png', types: ['clipstrip'], segments: ['alimenticio'] },
       { id: 33, image: '../img/portfolio/33-projetoespecial-BEI.png', types: ['projetosespeciais'], segments: ['com_visual'] },
-      { id: 34, image: '../img/portfolio/34-projetosepeciais-arvoreteachers.png', types: ['projetosespeciais'], segments: ['bebidas'] },
+      { id: 34, image: '../img/portfolio/34-projetosepeciais-arvoreteachers.png', types: ['projetosespeciais', "display_gondola"], segments: ['bebidas'] },
       { id: 36, image: '../img/portfolio/36-decor-gtavi.png', types: ['decor'], segments: ['outros'] },
       { id: 37, image: '../img/portfolio/37-dm-tabletent.png', types: ['display_mesa'], segments: ['bebidas'] },
       { id: 38, image: '../img/portfolio/38-dm-tabletentabsolut.png', types: ['display_mesa'], segments: ['bebidas'] },
@@ -150,6 +150,14 @@ function main() {
       { id: 35, image: '../img/portfolio/35-decor-ghostbusters.png', types: ['decor'], segments: ['outros'] },
       { id: 112, image: '../img/portfolio/112-moldura-acrilwood-prato.jpg', types: ['decor'], segments: ['outros'] },  
       { id: 114, image: '../img/portfolio/114-protetor-veicular.jpg', types: ['projetosespeciais'], segments: ['outros'] },  
+      { id: 124, image: '../img/portfolio/124-alumbra-chao.jpg', types: ['display_gondola', "display_chao"], segments: ['eletronicos'] },  
+      { id: 125, image: '../img/portfolio/125-wyborowa-parede.jpg', types: ['display_parede', "display_luminoso"], segments: ['bebidas'] }, 
+      { id: 126, image: '../img/portfolio/126-amarula-parede.jpg', types: ['display_parede', "display_luminoso"], segments: ['bebidas'] }, 
+      { id: 127, image: '../img/portfolio/127-veikko.jpg', types: ['display_parede', "display_luminoso"], segments: ['outros'] },  
+      { id: 128, image: '../img/portfolio/128-rehau.jpg', types: ['projetosespeciais'], segments: ['outros'] },  
+      { id: 129, image: '../img/portfolio/129-simples.jpg', types: ['display_parede', "display_luminoso", 'projetosespeciais'], segments: ['outros'] },
+      { id: 130, image: '../img/portfolio/130-wps-tecnica.jpg', types: ['pecatecnica'], segments: ['outros'] },
+      { id: 131, image: '../img/portfolio/131-aw.jpg', types: ['pecatecnica'], segments: ['outros'] },
   ];
   
   const itemsPerPage = 9;
