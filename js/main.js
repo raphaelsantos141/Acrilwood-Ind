@@ -158,6 +158,8 @@ function main() {
       { id: 129, image: '../img/portfolio/129-simples.jpg', types: ['display_parede', "display_luminoso", 'projetosespeciais'], segments: ['outros'] },
       { id: 130, image: '../img/portfolio/130-wps-tecnica.jpg', types: ['pecatecnica'], segments: ['outros'] },
       { id: 131, image: '../img/portfolio/131-aw.jpg', types: ['pecatecnica'], segments: ['outros'] },
+      { id: 132, image: '../img/portfolio/132-compactor-vitrine.jpg', types: ['display_vitrine'], segments: ['papelaria'] },
+      { id: 133, image: '../img/portfolio/133-technos-vitrine.jpg', types: ['display_vitrine'], segments: ['relogios'] },
   ];
   
   const itemsPerPage = 9;
