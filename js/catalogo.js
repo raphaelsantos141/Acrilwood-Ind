@@ -196,6 +196,13 @@ function main() {
     { id: 157, image: '../img/portfolio/157-display-vitrine-parker.jpg', types: ["display_vitrine"], segments: ["papelaria"] },
     { id: 158, image: '../img/portfolio/158-display-vitrine-seculus.jpg', types: ["display_vitrine"], segments: ["relogios"] },
     { id: 159, image: '../img/portfolio/159-maozinha-reserva.jpg', types: ["projetosespeciais"], segments: ["outros"] },
+    { id: 160, image: '../img/portfolio/160-balcao-compactor.jpg', types: ["display_balcao"], segments: ["papelaria"] },
+    { id: 161, image: '../img/portfolio/161-trofeu-amanco.jpg', types: ["trofeu"], segments: ["outros"] },
+    { id: 162, image: '../img/portfolio/162-balcao-condor-kids.jpg', types: ["display_balcao"], segments: ["relogios"] },
+    { id: 163, image: '../img/portfolio/163-bandeja-kpro.jpg', types: ["display_balcao"], segments: ["relogios"] },
+    { id: 164, image: '../img/portfolio/164-display-vitrine-seculus.jpg', types: ["display_vitrine"], segments: ["relogios"] },
+    { id: 165, image: '../img/portfolio/165-display-balcao-parker.jpg', types: ["display_balcao"], segments: ["papelaria"] },
+    { id: 166, image: '../img/portfolio/166-placa-spotify.jpg', types: ["decor"], segments: ["outros"] },
 ];
   
   const itemsPerPage = 9;
