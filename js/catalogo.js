@@ -183,6 +183,19 @@ function main() {
     { id: 144, image: '../img/portfolio/144-michael-kors.jpg', types: ["display_vitrine"], segments: ['relogios'] },
     { id: 145, image: '../img/portfolio/145-oticas-max.jpg', types: ["display_balcao"], segments: ['oculos'] },
     { id: 146, image: '../img/portfolio/146-balcao-technos.jpg', types: ['display_gondola', "display_chao", 'projetosespeciais','totem'], segments: ['relogios'] },
+    { id: 147, image: '../img/portfolio/147-balcao-jadlog.jpg', types: ['projetosespeciais'], segments: ['outros'] },
+    { id: 148, image: '../img/portfolio/148-balcao-brilha-lentes.jpg', types: ["display_balcao"], segments: ['oculos'] },
+    { id: 149, image: '../img/portfolio/149-balcao-compactor.jpg', types: ["display_balcao"], segments: ['papelaria'] },
+    { id: 150, image: '../img/portfolio/150-display-chao-crown.jpg', types: ["display_chao"], segments: ['papelaria'] },
+    { id: 151, image: '../img/portfolio/151-clipe-monoponto-cacau-show.jpg', types: ['projetosespeciais'], segments: ["com_visual"] },
+    { id: 152, image: '../img/portfolio/152-balcao-waterman-imex.jpg', types: ["display_balcao"], segments: ["papelaria"] },
+    { id: 153, image: '../img/portfolio/153-display-chao-glenlivet.jpg', types: ["display_chao"], segments: ["bebidas"] },
+    { id: 154, image: '../img/portfolio/154-display-ana-hickmann.jpg', types: ["display_vitrine"], segments: ["oculos"] },
+    { id: 155, image: '../img/portfolio/155-display-compactor.jpg', types: ["display_balcao"], segments: ["papelaria"] },
+    { id: 156, image: '../img/portfolio/156-display-lapiseira-compactor.jpg', types: ["display_balcao"], segments: ["papelaria"] },
+    { id: 157, image: '../img/portfolio/157-display-vitrine-parker.jpg', types: ["display_vitrine"], segments: ["papelaria"] },
+    { id: 158, image: '../img/portfolio/158-display-vitrine-seculus.jpg', types: ["display_vitrine"], segments: ["relogios"] },
+    { id: 159, image: '../img/portfolio/159-maozinha-reserva.jpg', types: ["projetosespeciais"], segments: ["outros"] },
 ];
   
   const itemsPerPage = 9;
