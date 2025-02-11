@@ -266,6 +266,7 @@ function main() {
     { id: 225, image: '../img/portfolio/225-nicho-live.jpg', types: ['display_balcao'], segments: ['outros'] },
     { id: 226, image: '../img/portfolio/226-live.jpg', types: ['display_chao'], segments: ['outros'] },
     { id: 227, image: '../img/portfolio/227-compactor-07-vip.jpg', types: ['display_chao','totem'], segments: ['papelaria'] },
+    { id: 228, image: '../img/portfolio/228-versatille.jpg', types: ['display_balcao'], segments: ['oculos'] },  
 ];
   
   const itemsPerPage = 9;
