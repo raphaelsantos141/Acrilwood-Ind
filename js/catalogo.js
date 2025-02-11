@@ -201,7 +201,7 @@ function main() {
     { id: 160, image: '../img/portfolio/160-balcao-compactor.jpg', types: ["display_balcao"], segments: ["papelaria"] },
     { id: 161, image: '../img/portfolio/161-trofeu-amanco.jpg', types: ["trofeu"], segments: ["outros"] },
     { id: 162, image: '../img/portfolio/162-balcao-condor-kids.jpg', types: ["display_balcao"], segments: ["relogios"] },
-    { id: 163, image: '../img/portfolio/163-bandeja-kpro.jpg', types: ["display_balcao"], segments: ["relogios"] },
+    { id: 163, image: '../img/portfolio/163-bandeja-kpro.jpg', types: ["bandejas"], segments: ["relogios"] },
     { id: 164, image: '../img/portfolio/164-display-vitrine-seculus.jpg', types: ["display_vitrine"], segments: ["relogios"] },
     { id: 165, image: '../img/portfolio/165-display-balcao-parker.jpg', types: ["display_balcao"], segments: ["papelaria"] },
     { id: 166, image: '../img/portfolio/166-placa-spotify.jpg', types: ["decor"], segments: ["outros"] },
@@ -265,6 +265,7 @@ function main() {
     { id: 224, image: '../img/portfolio/224-display.jpg', types: ['display_mesa'], segments: ['outros'] },
     { id: 225, image: '../img/portfolio/225-nicho-live.jpg', types: ['display_balcao'], segments: ['outros'] },
     { id: 226, image: '../img/portfolio/226-live.jpg', types: ['display_chao'], segments: ['outros'] },
+    { id: 227, image: '../img/portfolio/227-compactor-07-vip.jpg', types: ['display_chao','totem'], segments: ['papelaria'] },
 ];
   
   const itemsPerPage = 9;
