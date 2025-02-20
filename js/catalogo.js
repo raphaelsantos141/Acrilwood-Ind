@@ -96,7 +96,7 @@ function main() {
     { id: 50, image: '../img/portfolio/50-pt-grw.png', types: ['pecatecnica'], segments: ['outros'] },
     { id: 51, image: '../img/portfolio/51-q-quiosquerevlon.png', types: ['quiosque','display_chao'], segments: ['cosmeticos'] },
     { id: 52, image: '../img/portfolio/52-q-quiosquechillibeans.png', types: ['quiosque'], segments: ['oculos'] },
-    { id: 53, image: '../img/portfolio/53-tt-torregiratoriatechnos.png', types: ['totem'], segments: ['relogios'] },
+    { id: 53, image: '../img/portfolio/53-tt-torregiratoriatechnos.png', types: ['totem','display_chao'], segments: ['relogios'] },
     { id: 54, image: '../img/portfolio/54-tt-crown.png', types: ['totem'], segments: ['papelaria'] },
     { id: 55, image: '../img/portfolio/55-ltn-victorefrancisco.png', types: ['neon'], segments: ['outros'] },
     { id: 56, image: '../img/portfolio/56-ltn-pablomarcal.png', types: ['neon'], segments: ['outros'] },
@@ -267,6 +267,7 @@ function main() {
     { id: 226, image: '../img/portfolio/226-live.jpg', types: ['display_chao'], segments: ['outros'] },
     { id: 227, image: '../img/portfolio/227-compactor-07-vip.jpg', types: ['display_chao','totem'], segments: ['papelaria'] },
     { id: 228, image: '../img/portfolio/228-versatille.jpg', types: ['display_balcao'], segments: ['oculos'] },  
+    { id: 229, image: '../img/portfolio/229-torre-generica-2025.jpg', types: ['totem','display_chao'], segments: ['relogios'] },  
 ];
   
   const itemsPerPage = 9;
