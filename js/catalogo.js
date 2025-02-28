@@ -268,6 +268,7 @@ function main() {
     { id: 227, image: '../img/portfolio/227-compactor-07-vip.jpg', types: ['display_chao','totem'], segments: ['papelaria'] },
     { id: 228, image: '../img/portfolio/228-versatille.jpg', types: ['display_balcao'], segments: ['oculos'] },  
     { id: 229, image: '../img/portfolio/229-torre-generica-2025.jpg', types: ['totem','display_chao'], segments: ['relogios'] },  
+    { id: 230, image: '../img/portfolio/230-moldura-camiseta.jpg', types: ['decor','display_parede'], segments: ['outros'] },  
 ];
   
   const itemsPerPage = 9;
