@@ -225,7 +225,7 @@ function main() {
     { id: 184, image: '../img/portfolio/184-lorenzetti.jpg', types: ['display_parede'], segments: ['eletronicos'] },
     { id: 185, image: '../img/portfolio/185-tampa-cacau-show.jpg', types: ['projetosespeciais'], segments: ['alimenticio'] },
     { id: 186, image: '../img/portfolio/186-canetao-compactor.jpg', types: ['display_balcao'], segments: ['papelaria'] },
-    { id: 187, image: '../img/portfolio/187-sprite.jpg', types: ['display_balcao'], segments: ['bebidas'] },
+    { id: 187, image: '../img/portfolio/187-sprite.jpg', types: ['baldes'], segments: ['bebidas'] },
     { id: 188, image: '../img/portfolio/188-suporte-crown.jpg', types: ['display_balcao'], segments: ['papelaria'] },
     { id: 189, image: '../img/portfolio/189-suporte-technos.jpg', types: ['display_vitrine'], segments: ['relogios'] },
     { id: 190, image: '../img/portfolio/190-testeira-zapalla.jpg', types: ['display_vitrine'], segments: ['outros'] },
