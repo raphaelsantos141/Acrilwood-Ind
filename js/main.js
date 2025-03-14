@@ -108,7 +108,6 @@ function main() {
       { id: 71, image: '../img/portfolio/71-porta-celular-jadlog.jpg', types: ['brindes'], segments: ['outros'] },
       { id: 72, image: '../img/portfolio/72-display-l-pix.jpg', types: ['placas'], segments: ['com_visual'] }, 
       { id: 73, image: '../img/portfolio/73-placa-proibido.jpg', types: ['placas'], segments: ['com_visual'] }, 
-      { id: 77, image: '../img/portfolio/77-xadrez.jpg', types: ['decor'], segments: ['outros'] }, 
       { id: 78, image: '../img/portfolio/78-trofeu-mitsubishi.jpg', types: ['trofeu'], segments: ['com_visual'] },  
       { id: 79, image: '../img/portfolio/79-trofeu-greenbelt.jpg', types: ['trofeu'], segments: ['com_visual'] }, 
       { id: 80, image: '../img/portfolio/80-trofeu-jogos-regionais.jpg', types: ['trofeu'], segments: ['com_visual'] }, 
