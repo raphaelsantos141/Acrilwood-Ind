@@ -130,6 +130,7 @@ function main() {
     { id: 94, image: '../img/portfolio/94-clip-strip-hellmans.jpg', types: ['clipstrip'], segments: ['alimenticio'] }, 
     { id: 95, image: '../img/portfolio/95-especial-WYBOROWA.jpg', types: ['projetosespeciais'], segments: ['bebidas'] }, 
     { id: 233, image: '../img/portfolio/233-porta-guardanapo-sagatiba.jpg', types: ['display_mesa'], segments: ['bebidas'] },
+    { id: 272, image: '../img/portfolio/272-luminoso-chivas.jpg', types: ['display_luminoso'], segments: ['bebidas'] },
     { id: 97, image: '../img/portfolio/97-mesa-nova-schin.jpg', types: ['display_mesa'], segments: ['bebidas'] },  
     { id: 98, image: '../img/portfolio/98-mesa-ice-tea.jpg', types: ['display_mesa'], segments: ['bebidas'] },  
     { id: 99, image: '../img/portfolio/99-mesa-brahma.jpg', types: ['display_mesa'], segments: ['bebidas'] },
@@ -175,7 +176,7 @@ function main() {
     { id: 260, image: '../img/portfolio/260-insulfilm.jpg', types: ['insulfilm'], segments: ['outros'] },
     { id: 261, image: '../img/portfolio/261-insulfilm.jpg', types: ['insulfilm'], segments: ['outros'] },
     { id: 262, image: '../img/portfolio/262-insulfilm.jpg', types: ['insulfilm'], segments: ['outros'] },
-    { id: 263, image: '../img/portfolio/263-skyyvodka-balde.png', types: ['baldes','display_luminoso'], segments: ['bebidas'] },
+    { id: 263, image: '../img/portfolio/263-skyyvodka-balde.png', types: ['baldes'], segments: ['bebidas'] },
     { id: 265, image: '../img/portfolio/265-mapa-da-mina.jpg', types: ['display_balcao'], segments: ['outros'] },
     { id: 165, image: '../img/portfolio/165-display-balcao-parker.jpg', types: ["display_balcao"], segments: ["papelaria"] },
     { id: 210, image: '../img/portfolio/210-asus-luminoso.jpg', types: ['display_luminoso', 'display_balcao'], segments: ['eletronicos'] },
@@ -184,6 +185,7 @@ function main() {
     { id: 267, image: '../img/portfolio/267-sky-balcao.jpg', types: ['display_mesa'], segments: ['bebidas'] },
     { id: 268, image: '../img/portfolio/268-mesa-sagatiba.jpg', types: ['display_mesa'], segments: ['bebidas'] },
     { id: 255, image: '../img/portfolio/255-quiosque-marlboro.jpg', types: ['quiosque'], segments: ['outros'] },
+    { id: 271, image: '../img/portfolio/271-brinde-chivas.jpg', types: ['brindes'], segments: ['bebidas'] },
     { id: 133, image: '../img/portfolio/133-technos-vitrine.jpg', types: ['display_vitrine'], segments: ['relogios'] },
   ];
   
